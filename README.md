@@ -7,7 +7,7 @@ Matrix digital rain for Claude Code. While Claude works, the transcript is repla
 ## Install
 
 ```
-/plugin marketplace add <owner>/matrix-mode
+/plugin marketplace add thespacecarlos/matrix-mode
 /plugin install matrix-mode@matrix-mode
 ```
 
