@@ -1,3 +1,0 @@
-# Keep LF in the repository whatever the platform; avoids CRLF noise in diffs.
-* text=auto
-*.gif binary

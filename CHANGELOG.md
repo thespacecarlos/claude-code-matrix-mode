@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- Removed `.gitattributes` (added in 0.4.0): the Anthropic Directory could not validate the repository with it present. Version bump pending.
+
 ## 0.4.1 - 2026-10-18
 - README demo GIF shrunk from 6.5 MB to 0.9 MB (10 frames, 600 px) to fit the 5 MiB per-file limit of the Anthropic Directory.
 
