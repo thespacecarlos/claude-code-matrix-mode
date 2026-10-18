@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0 - 2026-10-18
+- `prompt.submit` and `tool.call` hooks now have a `.catch` handler and fail open: a failure in the rain can no longer block a prompt or a tool call.
+- Tests that a denied redraw does not block the prompt or the tool.
+- README: requirements, limitations, privacy and permissions, troubleshooting. Added `SECURITY.md` and `CONTRIBUTING.md`.
+
 ## 0.3.0
 - Reveal: when a turn ends, the last message builds up line by line out of the rain.
 - Esc skips straight to the full answer; typing stops the reveal.

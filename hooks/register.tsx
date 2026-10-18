@@ -108,6 +108,12 @@ export const register: Register = on => {
     }
 
     return next(e)
+  }).catch(async ($, e, next) => {
+    // Fail open: the rain is cosmetic, so a failure in this hook must never block
+    // the prompt. If the hook failed before next(), carry on; if after, keep its result.
+    if (next.called) return next(e)
+
+    return next(e)
   })
 
   // Typing anything skips the reveal.
@@ -121,6 +127,12 @@ export const register: Register = on => {
     lastTool = e.tool
     // The live line names the tool: one redraw for the text (the rain is blitted).
     if (await isActive($, isWorking)) $.ui.invalidate('ui.render')
+
+    return next(e)
+  }).catch(async ($, e, next) => {
+    // Fail open: the rain is cosmetic, so a failure in this hook must never block
+    // the tool call. If the hook failed before next(), carry on; if after, keep its result.
+    if (next.called) return next(e)
 
     return next(e)
   })

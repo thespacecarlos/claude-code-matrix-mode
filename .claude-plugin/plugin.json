@@ -1,8 +1,19 @@
 {
   "name": "matrix-mode",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "MIT",
   "description": "Matrix digital rain in Claude Code: the transcript is replaced by rain while Claude works.",
-  "author": { "name": "Karol Krajewski" },
-  "types": "./types/index.d.ts"
+  "author": {
+    "name": "Karol Krajewski"
+  },
+  "types": "./types/index.d.ts",
+  "repository": "https://github.com/thespacecarlos/claude-code-matrix-mode",
+  "homepage": "https://github.com/thespacecarlos/claude-code-matrix-mode#readme",
+  "keywords": [
+    "matrix",
+    "terminal",
+    "theme",
+    "animation",
+    "fun"
+  ]
 }
