@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.1 - 2026-10-18
+- README demo GIF shrunk from 6.5 MB to 0.9 MB (10 frames, 600 px) to fit the 5 MiB per-file limit of the Anthropic Directory.
+
 ## 0.4.0 - 2026-10-18
 - `prompt.submit` and `tool.call` hooks now have a `.catch` handler and fail open: a failure in the rain can no longer block a prompt or a tool call.
 - Tests that a denied redraw does not block the prompt or the tool.
