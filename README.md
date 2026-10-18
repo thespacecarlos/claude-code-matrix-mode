@@ -1,4 +1,4 @@
-# matrix-mode
+# claude-code-matrix-mode
 
 Matrix digital rain for Claude Code. While Claude works, the transcript is replaced by falling rain; when the turn ends, the answer builds up out of it.
 
@@ -7,7 +7,7 @@ Matrix digital rain for Claude Code. While Claude works, the transcript is repla
 ## Install
 
 ```
-/plugin marketplace add thespacecarlos/matrix-mode
+/plugin marketplace add thespacecarlos/claude-code-matrix-mode
 /plugin install matrix-mode@matrix-mode
 ```
 
@@ -26,3 +26,7 @@ claude plugin test .
 ```
 
 See [CHANGELOG.md](CHANGELOG.md).
+
+## License
+
+[MIT](LICENSE) © Karol Krajewski
