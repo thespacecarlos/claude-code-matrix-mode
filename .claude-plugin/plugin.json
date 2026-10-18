@@ -1,6 +1,6 @@
 {
   "name": "matrix-mode",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "license": "MIT",
   "description": "Matrix digital rain in Claude Code: the transcript is replaced by rain while Claude works.",
   "author": { "name": "Karol Krajewski" },
