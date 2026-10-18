@@ -4,6 +4,7 @@
 - `prompt.submit` and `tool.call` hooks now have a `.catch` handler and fail open: a failure in the rain can no longer block a prompt or a tool call.
 - Tests that a denied redraw does not block the prompt or the tool.
 - README: requirements, limitations, privacy and permissions, troubleshooting. Added `SECURITY.md` and `CONTRIBUTING.md`.
+- CI: GitHub Actions runs `claude plugin validate --strict` and `claude plugin test` on Linux and Windows. `.gitattributes` keeps line endings as LF.
 
 ## 0.3.0
 - Reveal: when a turn ends, the last message builds up line by line out of the rain.
