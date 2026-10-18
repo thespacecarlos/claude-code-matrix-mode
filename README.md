@@ -38,6 +38,16 @@ The plugin is cosmetic and local. It makes no network requests, starts no proces
 
 It does hook broadly, because it replaces the look of the transcript: it listens to `prompt.submit`, `prompt.edit`, `tool.call` and `turn.complete`, and redraws the user message, assistant message, tool, spinner and notice components. It only reads the text of the final answer to draw the reveal. The `prompt.submit` and `tool.call` hooks fail open: if drawing fails, your prompt and the tool call still go through.
 
+### What each hook does
+
+- `session.start`: registers the `/matrix` and `/matrix-off` commands and closes the sidebar pane left over from v0.1.
+- `command.run` (`matrix`, `matrix-off`): the commands themselves. They flip the on/off flag and answer with a one-line message; they do not pass the command on to anything else.
+- `prompt.submit`: when a prompt is sent and the mode is on, starts the rain timer. The prompt is passed on unchanged.
+- `prompt.edit`: typing ends a running reveal.
+- `tool.call`: remembers the tool name for the live line. The tool call is passed on unchanged.
+- `turn.complete`: when the answer arrives, starts the reveal. The answer is passed on unchanged.
+- `ui.render`: draws empty boxes in place of transcript components (user and assistant messages, tool rows, notices, spinner) while a turn runs, and paints the rain and the reveal.
+
 ## Troubleshooting
 
 - **No rain after `/matrix`:** restart Claude Code once after installing. Check `/plugin` that `matrix-mode` is enabled.
