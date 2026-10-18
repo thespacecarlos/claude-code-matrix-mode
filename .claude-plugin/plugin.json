@@ -1,0 +1,7 @@
+{
+  "name": "matrix-mode",
+  "version": "0.2.0",
+  "description": "Matrix digital rain in Claude Code: the transcript is replaced by rain while Claude works.",
+  "author": { "name": "Karol Krajewski" },
+  "types": "./types/index.d.ts"
+}

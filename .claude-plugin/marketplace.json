@@ -1,0 +1,12 @@
+{
+  "name": "matrix-mode",
+  "description": "Matrix digital rain for Claude Code.",
+  "owner": { "name": "Karol Krajewski" },
+  "plugins": [
+    {
+      "name": "matrix-mode",
+      "source": "./",
+      "description": "Matrix digital rain in Claude Code: the transcript is replaced by rain while Claude works."
+    }
+  ]
+}
