@@ -1,6 +1,6 @@
 {
   "name": "matrix-mode",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "license": "MIT",
   "description": "Matrix digital rain in Claude Code: the transcript is replaced by rain while Claude works.",
   "author": {

@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.5 - 2026-10-19
+- README screenshots renamed so that no image shares its name with a code module (the Directory scan matched a test import to an image of the same name).
+
 ## 0.4.4 - 2026-10-19
 - README screenshots resized to 1280 px wide (4.6 MB to 2.2 MB in total).
 
