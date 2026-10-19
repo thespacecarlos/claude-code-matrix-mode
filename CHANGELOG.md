@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.4 - 2026-10-19
+- README screenshots resized to 1280 px wide (4.6 MB to 2.2 MB in total).
+
 ## 0.4.3 - 2026-10-19
 - README: three screenshots (rain, reveal in progress, finished answer) replace the animated demo, which the Anthropic Directory scan flagged.
 - `plugin.json`: added `supportUrl`, `documentationUrl` and `privacyPolicyUrl` for the Directory listing.
