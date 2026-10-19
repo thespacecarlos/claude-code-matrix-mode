@@ -2,7 +2,11 @@
 
 Matrix digital rain for Claude Code. While Claude works, the transcript is replaced by falling rain; when the turn ends, the answer builds up out of it.
 
-![Matrix mode](image/TheMatrixMode_ClaudeCLI_6s.gif)
+![Rain replaces the transcript while Claude works](image/rain.png)
+
+![The answer builds up out of the rain](image/mid-reveal.png)
+
+![The finished answer](image/full-reveal.png)
 
 ## Install
 

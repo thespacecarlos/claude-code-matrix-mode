@@ -1,6 +1,6 @@
 {
   "name": "matrix-mode",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "license": "MIT",
   "description": "Matrix digital rain in Claude Code: the transcript is replaced by rain while Claude works.",
   "author": {
@@ -14,5 +14,8 @@
     "theme",
     "animation",
     "fun"
-  ]
+  ],
+  "supportUrl": "https://github.com/thespacecarlos/claude-code-matrix-mode/issues",
+  "documentationUrl": "https://github.com/thespacecarlos/claude-code-matrix-mode#readme",
+  "privacyPolicyUrl": "https://github.com/thespacecarlos/claude-code-matrix-mode#privacy-and-permissions"
 }

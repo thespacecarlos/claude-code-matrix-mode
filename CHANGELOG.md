@@ -1,8 +1,12 @@
 # Changelog
 
+## 0.4.3 - 2026-10-19
+- README: three screenshots (rain, reveal in progress, finished answer) replace the animated demo, which the Anthropic Directory scan flagged.
+- `plugin.json`: added `supportUrl`, `documentationUrl` and `privacyPolicyUrl` for the Directory listing.
+
 ## 0.4.2 - 2026-10-18
 - Removed `.gitattributes` (added in 0.4.0): the Anthropic Directory could not validate the repository with it present.
-- Added a plugin icon (`.claude-plugin/icon.png`).
+- Added a plugin icon.
 - Removed the unused `types` field from `plugin.json` (Claude Code ignores it); `types/index.d.ts` stays for editors.
 - Demo GIF re-encoded (0.9 MB to 0.4 MB): the Directory scan flagged a false positive in the old file's bytes.
 - README: what each hook does.
